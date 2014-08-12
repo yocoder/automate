@@ -1,0 +1,22 @@
+# Access to the data in this file is provided through EnvConfig - see env_config.rb
+
+defaults: &execution_defaults
+  default_config: ci #This just ensures the ft profile (below) is loaded if no CONFIG= is passed from the command line.
+  book_a_hotel: /book-a-hotel
+  faq_page: /faqs.html
+  contact_us_page: /contact-us.html
+
+ci:
+  <<: *execution_defaults
+  base_url: http://magpublic-test1.vhols.ads
+
+test2:
+  <<: *execution_defaults
+  base_url: http://www.google.com
+
+test3:
+  <<: *execution_defaults
+
+Sit:
+  <<: *execution_defaults
+

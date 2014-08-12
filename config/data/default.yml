@@ -1,0 +1,20 @@
+loginpage:
+  username: admin
+  password: password
+
+guest_details_page:
+   lead_guest_title: ~randomize ['Mr', 'Mrs', 'Ms']
+   lead_guest_firstname: ~first_name
+   lead_guest_lastname: ~last_name
+   lead_guest_dob_day: 10
+   lead_guest_dob_month: ~randomize ['Jan', 'Feb', 'Mar','Apr']
+   lead_guest_dob_year: 1970
+   adult_guest2_title: ~randomize ['Mr', 'Mrs', 'Ms']
+   adult_guest2_firstname: ~first_name
+   adult_guest2_lastname: ~last_name
+   adult_guest2_dob_day: 11
+   adult_guest2_dob_month: ~randomize ['Jan', 'Feb', 'Mar','Apr']
+   adult_guest2_dob_year: 1980
+   email: ~email_address
+   postcode: RH101WW
+   phone_number: 01234567890
